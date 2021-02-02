@@ -1,0 +1,112 @@
+---
+title: "Transportation-Related Benefits, Burdens, and Priority Populations"
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  div.info.legend.leaflet-control br {clear: both;}
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
+# library(flexdashboard)
+library(tidyverse)
+library(sf)
+library(tmap)
+library(maptools)
+# library(janitor)
+# library(kableExtra)
+library(tigris)
+options(tigris_use_cache = TRUE, tigris_class = "sf")
+library(leaflet)
+library(leaflet.extras)
+library(DT)
+# set common data table options
+# options(DT.options = list(scrollY="100vh", lengthMenu = c(5, 10, 15, 20)))
+options(DT.options = list(lengthMenu = c(10, 20, 50, 100)))
+library(highcharter)
+library(rmapshaper)
+library(metathis)
+library(RColorBrewer)
+library(knitr)
+
+meta() %>%
+  meta_description(
+    "Environmental justice analysis of transportation-related burdens and benefits across New England") %>% 
+  meta_viewport() %>% 
+  meta_social(
+    title = "Investing for Equity in New England",
+    url = "http://dgl.salemstate.edu/luna/InvestingForEquity/NE/",
+    og_type = "website",
+    og_author = c("Marcos Luna", "Neenah Estrella-Luna"),
+    twitter_card_type = "summary",
+    twitter_creator = "@CLF"
+  )
+```
+
+Transportation systems are crucial for the social and economic wellbeing of our society and our communities, and they are also major sources of environmental burden and inequity. The transportation sector is now the single largest source of climate-change inducing greenhouse gases (GHGs) in the U.S., and it is a major source of noxious and toxic pollution that directly degrades the health and safety of people, especially the most vulnerable amongst us. 
+
+This website shares the highlights from an analysis of the distribution of transportation-related burdens (e.g., pollution) and benefits (e.g., transit access) across the six New England states and the relationship of these burdens and benefits to priority populations. The goal is to provide guidance on policy recommendations for transportation investments that promote social and environmental equity and mitigate or prevent disparities and inequities in access to benefits and exposure to burdens. 
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px; grid-template-rows: auto; grid-row-gap: 30px; "}
+
+::: {}
+
+[![Connecticut](images/CT_CUM_BURDEN_map.png)Connecticut](http://dgl.salemstate.edu/luna/InvestingForEquity/CT/)
+
+:::
+
+::: {}
+
+[![Massachusetts](images/CUM_BURDEN_map.png)Massachusetts](http://dgl.salemstate.edu/luna/InvestingForEquity/MA/)
+
+:::
+
+::: {}
+
+[![Maine](images/ME_CUM_BURDEN_map.png)Maine](http://dgl.salemstate.edu/luna/InvestingForEquity/ME/)
+
+:::
+
+::: {}
+
+[![New Hampshire](images/NH_CUM_BURDEN_map.png)New Hampshire](http://dgl.salemstate.edu/luna/InvestingForEquity/NH/)
+
+:::
+
+::: {}
+
+[![Rhode Island](images/RI_CUM_BURDEN_map.png)Rhode Island](http://dgl.salemstate.edu/luna/InvestingForEquity/RI/)
+
+:::
+
+::: {}
+
+[![Vermont](images/VT_CUM_BURDEN_map.png)Vermont](http://dgl.salemstate.edu/luna/InvestingForEquity/VT/)
+
+:::
+
+::::
+
+```{r images1, include=FALSE, fig.show = "hold", out.width = "50%", fig.align = "default"}
+include_graphics("images/CT_CUM_BURDEN_map.png")
+
+include_graphics("images/CUM_BURDEN_map.png")
+```
+
+```{r images2, include=FALSE, fig.show = "hold", out.width = "45%", fig.align = "default"}
+include_graphics("images/ME_CUM_BURDEN_map.png")
+
+include_graphics("images/NH_CUM_BURDEN_map.png")
+```
+
+```{r images3, include=FALSE, fig.show = "hold", out.width = "40%", fig.align = "default"}
+include_graphics("images/RI_CUM_BURDEN_map.png")
+
+include_graphics("images/VT_CUM_BURDEN_map.png")
+```
+

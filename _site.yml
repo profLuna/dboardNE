@@ -1,0 +1,31 @@
+name: "NewEngland_dashboard"
+navbar:
+  title: "Investing for Equity in New England"
+  type: inverse
+  left:
+    - text: "CT"
+      icon: fa-train
+      href: http://dgl.salemstate.edu/luna/InvestingForEquity/CT/
+    - text: "MA"
+      icon: fa-subway
+      href: http://dgl.salemstate.edu/luna/InvestingForEquity/MA/
+    - text: "ME"
+      icon: fa-truck
+      href: http://dgl.salemstate.edu/luna/InvestingForEquity/ME/
+    - text: "NH"
+      icon: fa-taxi
+      href: http://dgl.salemstate.edu/luna/InvestingForEquity/NH/
+    - text: "RI"
+      icon: fa-bus
+      href: http://dgl.salemstate.edu/luna/InvestingForEquity/RI/
+    - text: "VT"
+      icon: fa-car
+      href: http://dgl.salemstate.edu/luna/InvestingForEquity/VT/
+output:
+  html_document:
+    theme: readable
+    self_contained: false
+    anchor_sections: false
+    lib_dir: libs
+    includes:
+      in_header: favicon.html
