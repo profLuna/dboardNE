@@ -50,7 +50,11 @@ meta() %>%
 
 Transportation systems are crucial for the social and economic wellbeing of our society and our communities, and they are also major sources of environmental burden and inequity. The transportation sector is now the single largest source of climate-change inducing greenhouse gases (GHGs) in the U.S., and it is a major source of noxious and toxic pollution that directly degrades the health and safety of people, especially the most vulnerable amongst us. 
 
-This website shares the highlights from an analysis of the distribution of transportation-related burdens (e.g., pollution) and benefits (e.g., transit access) across the six New England states and the relationship of these burdens and benefits to priority populations. The goal is to provide guidance on policy recommendations for transportation investments that promote social and environmental equity and mitigate or prevent disparities and inequities in access to benefits and exposure to burdens. 
+This website shares highlights from an analysis of the distribution of transportation-related burdens (e.g., pollution) and benefits (e.g., transit access) across the six New England states and the relationship of these burdens and benefits to priority populations. The goal is to provide guidance on policy recommendations for transportation investments that promote social and environmental equity and mitigate or prevent disparities and inequities in access to benefits and exposure to burdens. Select a state to learn more.
+
+<br>
+
+<br>
 
 :::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px; grid-template-rows: auto; grid-row-gap: 30px; "}
 
@@ -93,6 +97,7 @@ This website shares the highlights from an analysis of the distribution of trans
 ::::
 
 ```{r images1, include=FALSE, fig.show = "hold", out.width = "50%", fig.align = "default"}
+# allows for images aligned side by side, but doesn't allow for hyperlinks
 include_graphics("images/CT_CUM_BURDEN_map.png")
 
 include_graphics("images/CUM_BURDEN_map.png")
