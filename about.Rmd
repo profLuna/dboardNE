@@ -1,5 +1,5 @@
 ---
-title: "About This Website"
+title: "About This Project"
 ---
 
 This website supplements a larger project for the [Massachusetts Conservation Law Foundation](https://www.clf.org/serving-new-england/massachusetts/) to provide guidance on policy recommendations for transportation investments that promote social and environmental equity and mitigate or prevent disparities and inequities in access to benefits and exposure to burdens. 
