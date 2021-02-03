@@ -2,7 +2,7 @@
 title: "About This Project"
 ---
 
-This website supplements a larger project for the [Massachusetts Conservation Law Foundation](https://www.clf.org/serving-new-england/massachusetts/) to provide guidance on policy recommendations for transportation investments that promote social and environmental equity and mitigate or prevent disparities and inequities in access to benefits and exposure to burdens. 
+This website supplements a larger project for the [Massachusetts Conservation Law Foundation](https://www.clf.org/serving-new-england/massachusetts/) to provide guidance on policy recommendations for transportation investments that promote social and environmental equity and mitigate or prevent disparities and inequities in access to benefits and exposure to burdens. Read the [executive summary or full report on Investing for Equity here](reports/Transportation Equitable Investment Report FINAL.pdf). 
 
 The objectives of this analysis were to identify the geographic and demographic characteristics of communities that are:
 
@@ -19,6 +19,6 @@ Transportation data included transit lines and routes from state agencies, avera
 
 This online application is built with [R version 4.0.3 (R Core Team, 2020)](https://www.r-project.org/) using the [R Markdown](https://rmarkdown.rstudio.com/) package in Rstudio. Charts, tables, and maps use [Highcharts](http://www.highcharts.com/),  [DataTables](https://datatables.net/), and [Leaflet.js](http://leafletjs.com/), respectively, all accessed through their corresponding R packages.  
 
-Research code for this analysis will be formally released at a later date.
+Research code for this analysis is available at https://github.com/profLuna/Investing-for-Equity.
 
 Please direct feedback, suggestions, or questions about this website to Marcos Luna - mluna@salemstate.edu
