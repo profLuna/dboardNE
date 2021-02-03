@@ -5,22 +5,22 @@ navbar:
   left:
     - text: "CT"
       icon: fa-train
-      href: http://dgl.salemstate.edu/luna/InvestingForEquity/CT/
+      href: CT/
     - text: "MA"
       icon: fa-subway
-      href: http://dgl.salemstate.edu/luna/InvestingForEquity/MA/
+      href: MA/
     - text: "ME"
       icon: fa-truck
-      href: http://dgl.salemstate.edu/luna/InvestingForEquity/ME/
+      href: ME/
     - text: "NH"
       icon: fa-taxi
-      href: http://dgl.salemstate.edu/luna/InvestingForEquity/NH/
+      href: NH/
     - text: "RI"
       icon: fa-bus
-      href: http://dgl.salemstate.edu/luna/InvestingForEquity/RI/
+      href: RI/
     - text: "VT"
       icon: fa-car
-      href: http://dgl.salemstate.edu/luna/InvestingForEquity/VT/
+      href: VT/
   right:
     - text: "About"
       icon: fa-info
