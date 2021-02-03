@@ -21,6 +21,10 @@ navbar:
     - text: "VT"
       icon: fa-car
       href: http://dgl.salemstate.edu/luna/InvestingForEquity/VT/
+  right:
+    - text: "About"
+      icon: fa-info
+      href: about.html
 output:
   html_document:
     theme: readable
