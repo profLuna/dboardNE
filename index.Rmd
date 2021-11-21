@@ -1,5 +1,5 @@
 ---
-title: "Transportation-Related Benefits, Burdens, and Priority Populations"
+title: "Investing for Equity: Using an Environmental Justice Approach to Guide Transportation and Climate Investments Interactive Tool"
 ---
 
 <style type="text/css">
@@ -10,6 +10,12 @@ title: "Transportation-Related Benefits, Burdens, and Priority Populations"
   div.info.legend.leaflet-control br {clear: both;}
 }
 </style>
+
+```{r, echo=FALSE, eval=FALSE}
+htmltools::img(src = knitr::image_uri("images/CLFlogo100px.jpg"), 
+               alt = 'CLF logo', 
+               style = 'position:absolute; top:5; left:0; padding:10px;')
+```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
