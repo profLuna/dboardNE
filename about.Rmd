@@ -23,6 +23,17 @@ Research code for this analysis is available at https://github.com/profLuna/Inve
 
 Please direct feedback, suggestions, or questions about this website to Marcos Luna - mluna@salemstate.edu
 
+### About the authors and partners
+[Dr. Marcos Luna](https://directory.salemstate.edu/profile/marcos.luna) is a Professor of [Geography & Sustainability](https://www.salemstate.edu/academics/college-arts-and-sciences/geography-and-sustainability) and the Coordinator of the graduate program in [Geo-Information Science at Salem State University](https://www.salemstate.edu/graduate/msgeo). 
+
+Dr. Neenah Estrella-Luna is a social equity and anti-racism policy scholar, educator, and consultant. She is the owner of [StarLuna Consulting, LLC](https://starluna.net).
+
+This project was generously funded by the [Conservation Law Foundation (CLF)](https://www.clf.org/). CLF protects New England’s environment for the benefit of all people. We use the law, science, and the market to create solutions that preserve our natural resources, build healthy communities, and sustain a vibrant economy. 
+
+This report should be cited as:
+Luna, Marcos, and Neenah Estrella-Luna. 2021. “Investing for Equity: Using an environmental justice approach to guide transportation & climate investments.” Report to the Conservation Law Foundation. Online at http://dgl.salemstate.edu/luna/InvestingForEquity/
+
+
 ```{r, echo=FALSE, eval=FALSE}
 htmltools::img(src = knitr::image_uri("images/CLFlogo.jpg"), 
                alt = 'CLF logo', 
