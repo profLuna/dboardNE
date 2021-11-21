@@ -22,9 +22,29 @@ navbar:
       icon: fa-car
       href: VT/
   right:
-    - text: "About"
-      icon: fa-info
-      href: about.html
+    - text: "More"
+      icon: fa-gear
+      menu:
+        - text: Reports
+          href: reports.html
+        - text: About
+          href: about.html
+        - text: Home
+          href: index.html
+        - text: '---------'
+        - text: States
+        - text: Connecticut
+          href: CT/
+        - text: Massachusetts
+          href: MA/
+        - text: Maine
+          href: ME/
+        - text: New Hampshire
+          href: NH/
+        - text: Rhode Island
+          href: RI/
+        - text: Vermont
+          href: VT/
 output:
   html_document:
     theme: readable
