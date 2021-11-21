@@ -2,7 +2,7 @@
 title: "About This Project"
 ---
 
-This website supplements a larger project for the [Massachusetts Conservation Law Foundation](https://www.clf.org/serving-new-england/massachusetts/) to provide guidance on policy recommendations for transportation investments that promote social and environmental equity and mitigate or prevent disparities and inequities in access to benefits and exposure to burdens. Read the [executive summary or full report on Investing for Equity here](reports/Transportation Equitable Investment Report FINAL.pdf). 
+This website is part of a larger project for the [Conservation Law Foundation](https://www.clf.org/).  This work aims to address inequities in the current transportation system by providing guidance on policy recommendations for future investment in transportation systems across New England, with the goal of promoting  access to reliable transportation for everyone, and reducing harms such as transportation-related pollution. Currently, these benefits and burdens are inequitably distributed, and are experienced more by certain communities than others. Read the [executive summary or full report on Investing for Equity here](reports/Transportation Equitable Investment Report FINAL.pdf). 
 
 The objectives of this analysis were to identify the geographic and demographic characteristics of communities that are:
 
@@ -17,8 +17,34 @@ Heat risk analysis was based on satellite-derived land surface temperatures from
 Evacuation risk was analyzed using the Federal Emergency Management Agency's (FEMA) [National Flood Hazard Layer](https://msc.fema.gov/portal/advanceSearch), hurricane evacuation zones from state emergency agencies, and projected hurricane storm surge extents from the [National Weather Service's National Hurricane Center and U.S. Army Corps of Engineers SLOSH modeling](https://www.nhc.noaa.gov/nationalsurge/). 
 Transportation data included transit lines and routes from state agencies, average headways based on GTFS data from state transit agencies and open data providers such as Trillium and OpenMobility, [walkability scores](https://www.epa.gov/smartgrowth/smart-location-mapping#walkability) from the EPA, and transportation cost burdens based on the U.S. Department of Housing and Urban Development's (HUD) [Location Affordability Index](https://www.hudexchange.info/programs/location-affordability-index/about/). 
 
-This online application is built with [R version 4.0.3 (R Core Team, 2020)](https://www.r-project.org/) using the [R Markdown](https://rmarkdown.rstudio.com/) package in Rstudio. Charts, tables, and maps use [Highcharts](http://www.highcharts.com/),  [DataTables](https://datatables.net/), and [Leaflet.js](http://leafletjs.com/), respectively, all accessed through their corresponding R packages.  
+This online application is built with [R version `r getRversion()` (R Core Team, 2021)](https://www.r-project.org/) using the [R Markdown](https://rmarkdown.rstudio.com/) package in Rstudio. Charts, tables, and maps use [Highcharts](http://www.highcharts.com/),  [DataTables](https://datatables.net/), and [Leaflet.js](http://leafletjs.com/), respectively, all accessed through their corresponding R packages.  
 
 Research code for this analysis is available at https://github.com/profLuna/Investing-for-Equity.
 
 Please direct feedback, suggestions, or questions about this website to Marcos Luna - mluna@salemstate.edu
+
+```{r, echo=FALSE, eval=FALSE}
+htmltools::img(src = knitr::image_uri("images/CLFlogo.jpg"), 
+               alt = 'CLF logo', 
+               style = 'position:absolute; bottom:0; left:5; padding:10px;')
+```
+
+```{r CLFlogo, echo=FALSE, fig.show='hold', eval=FALSE}
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,...)
+    )
+}
+
+# knitr::include_graphics(c("images/CLFlogo250px.jpg", "images/StarLuna_Logo_rgb_ExtraSmall.png"))
+# knitr::include_graphics("images/CLFlogo250px.jpg")
+# knitr::include_graphics("images/StarLuna_Logo_rgb_ExtraSmall.png")
+
+# [![CLF Logo](images/CLFlogo250px.jpg "Conservation Law Foundation")](https://www.clf.org/)
+# [![StarLuna Logo](images/StarLuna_Logo_rgb_ExtraSmall.png "StarLuna Consulting")](https://starluna.net/)
+```
+
+| [![CLF Logo](images/CLFlogo250px.jpg "Conservation Law Foundation"){height=100px}](https://www.clf.org/)  [![StarLuna Logo](images/StarLuna_Logo_rgb_ExtraSmall.png "StarLuna Consulting"){height=100px}](https://starluna.net/)
+
+
