@@ -56,6 +56,6 @@ image_link <- function(image,url,...){
 # [![StarLuna Logo](images/StarLuna_Logo_rgb_ExtraSmall.png "StarLuna Consulting")](https://starluna.net/)
 ```
 
-| [![CLF Logo](images/CLFlogo250px.jpg "Conservation Law Foundation"){height=100px}](https://www.clf.org/)  [![StarLuna Logo](images/StarLuna_Logo_rgb_ExtraSmall.png "StarLuna Consulting"){height=100px}](https://starluna.net/)
+| [![CLF Logo](images/CLFlogo250px.jpg "Conservation Law Foundation"){height=100px}](https://www.clf.org/)  [![StarLuna Logo](images/StarLuna_Logo_rgb_ExtraSmall.png "StarLuna Consulting"){height=100px}](https://starluna.net/)  [![Clean Water Action Logo](images/Clean Water Action Logo.png "Clean Water Action"){height=100px}](https://www.cleanwateraction.org/)  [![ACE Logo](images/ACE-logo (2).jpg "ACE"){height=100px}](https://ace-ej.org/)  [![GreenRoots Logo](images/GR Logo.jpeg "GreenRoots"){height=100px}](http://www.greenrootschelsea.org/)  [![HCWH Logo](images/HCWH logo transparent[1].png "Health Care Without Harm"){height=100px}](https://noharm.org/)  [![C4SJ Logo](images/1643228804202.jpg "Coalition for Social Justice"){height=75px}](https://coalitionforsocialjustice.org/)  [![T4MA Logo](images/T4MA_horz.png "Transportation for Massachusetts"){height=75px}](https://www.t4ma.org/)
 
 
