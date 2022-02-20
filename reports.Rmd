@@ -9,31 +9,31 @@ This page provides links to download PDF reports describing the findings and met
 3. likely to experience evacuation risks and other transportation-related vulnerabilities resulting from flooding, extreme weather, and other climate stressors, and
 4. underserved by current public transit infrastructure or services and overburdened by transportation related costs. 
 
-[Executive Summary of Investing for Equity: Using an Environmental Justice Approach to Guide Transportation and Climate Investments Interactive Tool (29MB)](reports/Transportation Equitable Investment Report EXEC.pdf)
+[Executive Summary of Investing for Equity: Using an Environmental Justice Approach to Guide Transportation and Climate Investments Interactive Tool (29MB)]()
 
-[Full Report (all states) of Investing for Equity: Using an Environmental Justice Approach to Guide Transportation and Climate Investments Interactive Tool (29MB)](reports/Transportation Equitable Investment Report FINAL.pdf)
+[Full Report (all states) of Investing for Equity: Using an Environmental Justice Approach to Guide Transportation and Climate Investments Interactive Tool (29MB)]()
 
 ---
 
 ## State-level fact sheets
 
-* [CONNECTICUT](reports/Fact_Sheet_CT.pdf)
-* [MASSACHUSETTS](reports/Fact_Sheet_MA.pdf)
-* [NEW HAMPSHIRE](reports/Fact_Sheet_NH.pdf)
-* [MAINE](reports/Fact_Sheet_ME.pdf)
-* [RHODE ISLAND](reports/Fact_Sheet_RI.pdf)
-* [VERMONT](reports/Fact_Sheet_VT.pdf)
+* [CONNECTICUT]()
+* [MASSACHUSETTS]()
+* [NEW HAMPSHIRE]()
+* [MAINE]()
+* [RHODE ISLAND]()
+* [VERMONT]()
 
 ---
 
 ## State-level full reports
 
-* [CONNECTICUT](reports/Investing_For_Equity_CT.pdf)
-* [MASSACHUSETTS](reports/Investing_For_Equity_MA.pdf)
-* [NEW HAMPSHIRE](reports/Investing_For_Equity_NH.pdf)
-* [MAINE](reports/Investing_For_Equity_ME.pdf)
-* [RHODE ISLAND](reports/Investing_For_Equity_RI.pdf)
-* [VERMONT](reports/Investing_For_Equity_VT.pdf)
+* [CONNECTICUT]()
+* [MASSACHUSETTS]()
+* [NEW HAMPSHIRE]()
+* [MAINE]()
+* [RHODE ISLAND]()
+* [VERMONT]()
 
 ---
 
